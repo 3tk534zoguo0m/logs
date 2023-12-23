@@ -1,0 +1,27 @@
+NullReferenceException
+
+ClusterUtil.GetMyWorld (KMonoBehaviour component) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Portal_Cube_2.NavTeleporterNew.<IsPickupableRelevantToMyInterests>b__25_0 (Portal_Cube_2.PortalConnection x) (at <91012ca575fb441babe2697ea54499b3>:0)
+System.Collections.Generic.List`1[T].FindAll (System.Predicate`1[T] match) (at <695d1cc93cca45069c528c15c9fdd749>:0)
+Portal_Cube_2.NavTeleporterNew.IsPickupableRelevantToMyInterests (Pickupable pickupable, System.Int32& closetPortalCell, System.Int32& finalCell, Navigator& dupenav) (at <91012ca575fb441babe2697ea54499b3>:0)
+Portal_Cube_2.StoppingReact+PortalEnterWorkableReactable.MustStop (UnityEngine.GameObject dupe) (at <91012ca575fb441babe2697ea54499b3>:0)
+Portal_Cube_2.StoppingReact+PortalEnterWorkableReactable.InternalCanBegin (UnityEngine.GameObject new_reactor, Navigator+ActiveTransition transition) (at <91012ca575fb441babe2697ea54499b3>:0)
+Reactable.CanBegin (UnityEngine.GameObject reactor, Navigator+ActiveTransition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+ReactionMonitor+Instance.TryReact (Reactable reactable, System.Single clockTime, Navigator+ActiveTransition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+ReactionMonitor+Instance.PollForReactables (Navigator+ActiveTransition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+ReactableTransitionLayer.BeginTransition (Navigator navigator, Navigator+ActiveTransition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+TransitionDriver.BeginTransition (Navigator navigator, Navigator+ActiveTransition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+TransitionDriver.BeginTransition (Navigator navigator, NavGrid+Transition transition, System.Single defaultSpeed) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Navigator.BeginTransition (NavGrid+Transition transition) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Navigator.AdvancePath (System.Boolean trigger_advance) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+TransitionDriver.UpdateTransition (System.Single dt) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Navigator.SimEveryTick (System.Single dt) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Navigator+States+<>c.<InitializeStates>b__5_2 (Navigator+StatesInstance smi, System.Single dt) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+BucketUpdater`1[DataType].Update (DataType data, System.Single dt) (at <1e2b7d5db95c4d6b84eabb7ca0270927>:0)
+UpdateBucketWithUpdater`1[DataType].Update (System.Single dt) (at <1e2b7d5db95c4d6b84eabb7ca0270927>:0)
+StateMachineUpdater+BucketGroup.AdvanceOneSubTick (System.Single dt) (at <1e2b7d5db95c4d6b84eabb7ca0270927>:0)
+StateMachineUpdater.AdvanceOneSimSubTick () (at <1e2b7d5db95c4d6b84eabb7ca0270927>:0)
+Game.SimEveryTick (System.Single dt) (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+Game.Update () (at <ad63d841ef814a5d8bf82e8bc9ca21bd>:0)
+
+Build: U50-587362-S
